@@ -8,7 +8,7 @@
 | **Grupa / Specializare** | **633AB** / Informatică Industrială |
 | **Disciplina** | Rețele Neuronale |
 | **Instituție** | POLITEHNICA București – FIIR |
-| **Link Repository GitHub** | [Adaugă link-ul tău aici] |
+| **Link Repository GitHub** | [[Adaugă link-ul tău aici]](https://github.com/sstorm27/Proiect-RN) |
 | **Acces Repository** | Public (pentru evaluare) |
 | **Stack Tehnologic** | **Python 3.10**, **TensorFlow 2.10+ (Keras)**, **Streamlit**, **Pandas**, **Numpy** |
 | **Domeniul Industrial de Interes (DII)** | **Media Analytics & Consumer Sentiment Monitoring** |
@@ -307,15 +307,11 @@ Medium-term: Implementarea unui model Transformer (BERT) pentru a gestiona recen
 Long-term: Deployment ca API REST folosind FastAPI pentru integrare în platforme reale.
 
 11. Bibliografie
-Chollet, F., Deep Learning with Python, Second Edition, Manning Publications, 2021. (Sursa principală pentru implementarea Keras/LSTM).
+1. Basiri, M.E., et al. (2021). Attention-based Bidirectional Deep Model. [Link DOI: 10.1016/j.future.2020.08.005]
+2. Streamlit Inc., 2025. Streamlit Documentation - Build data apps in Python. Link: https://docs.streamlit.io/
+3. TensorFlow Documentation (2024). Text classification with RNN. [tensorflow.org/tutorials]
+4. Ionescu David (2026). GitHub Repository Proiect. 
 
-Hochreiter, S., & Schmidhuber, J., Long Short-Term Memory, Neural Computation, 1997. (Teoria din spatele celulelor LSTM).
-
-TensorFlow Documentation, Text classification with an RNN, 2024. URL: https://www.tensorflow.org/text/tutorials/text_classification_rnn
-
-Streamlit Documentation, Build data apps in python, 2024. URL: https://docs.streamlit.io/
-
-Ionescu, D., Cod Sursă Proiect RN - Arhiva GitHub, 2026.
 
 12. Checklist Final (Auto-verificare)
 [X] Accuracy ≥ 70% (Realizat: 91.60%)
