@@ -3,8 +3,8 @@
 **Disciplina:** Rețele Neuronale  
 **Instituție:** POLITEHNICA București – FIIR  
 **Student:** [Nume Prenume]  
-**Link Repository GitHub:** [Link-ul tău aici]  
-**Data predării:** [Data Curentă]
+**Link Repository GitHub: https://github.com/sstorm27/Proiect-RN 
+**Data predării:** [04/02/2026]
 
 ---
 ## Scopul Etapei 6
