@@ -193,12 +193,14 @@ Deși modelul din Exp 4 (86.5%) era performant, el tot greșea la structuri logi
 
 ### 6.1 Metrici pe Test Set (Model Optimizat)
 
+### 6.1 Metrici pe Test Set (Model Optimizat)
+
 | Metric | Valoare | Target Minim | Status |
 |--------|---------|--------------|--------|
-| **Accuracy** | **91.60%** | ≥70% | **[✓] REUȘIT** |
-| **F1-Score (Macro)** | **0.8900** | ≥0.65 | **[✓] REUȘIT** |
-| **Recall (Negativ)** | **0.92** | - | Modelul este foarte sensibil la critici (important industrial). |
-| **Precision (Pozitiv)** | **0.88** | - | Puține alarme false pe recenzii pozitive. |
+| **Accuracy** | **83.92%** | ≥70% | **[✓] REUȘIT** |
+| **F1-Score (Macro)** | **0.8380** | ≥0.65 | **[✓] REUȘIT** |
+| **Recall (Negativ)** | **0.85** | - | Modelul detectează corect majoritatea criticilor (esențial industrial). |
+| **Precision (Pozitiv)** | **0.83** | - | Rată scăzută de alarme false pe recenziile pozitive. |
 
 ### 6.2 Confusion Matrix (Descriere)
 
