@@ -19,7 +19,7 @@
 | Metric | Țintă Minimă | Rezultat Etapa 6 (Baseline) | Rezultat Final (Hibrid) | Îmbunătățire | Status |
 |--------|--------------|------------------|----------------|--------------|--------|
 | **Accuracy (Test Set)** | ≥70% | 72.40% (Doar LSTM) | **91.60%** (Hibrid) | **+19.20%** | **[✓]** |
-| **F1-Score (Macro)** | ≥0.65 | 0.68 | **0.89** | **+0.21** | **[✓]** |
+| **F1-Score (Macro)** | ≥0.65 | 0.68 | **0.838** | **+0.158** | **[✓]** |
 | **Latență Inferență** | < 200 ms | 85 ms | **92 ms** | +7 ms (cost neglijabil) | **[✓]** |
 | **Contribuție Date Originale** | ≥40% | 45% | **45%** | - | **[✓]** |
 | **Nr. Experimente Optimizare** | ≥4 | 4 | **6** | - | **[✓]** |
@@ -253,15 +253,6 @@ Fluxul de date în aplicație:
 5.  Output final: **POZITIV (Card Verde)**.
 
 
-
----
-
-## 8. Structura Repository-ului Final
-
-proiect-rn-ionescu-david/ │ ├── README.md # ← ACEST FIȘIER (Documentație Completă) │ ├── data/ │ ├── generated/ # Date augmentate │ │ └── augmented_reviews.csv # Contribuția originală (45%) │ ├── src/ │ ├── data_acquisition/ # MODUL 1 │ │ └── generate.py # Script generare date sintetice │ │ │ ├── neural_network/ # MODUL 2 │ │ ├── model.py # Definire arhitectură Bi-LSTM │ │ ├── train.py # Script antrenare │ │ ├── evaluate.py # Script evaluare metrici │ │ └── audit_project.py # Script de testare automată (Audit) │ │ │ └── app/ # MODUL 3 │ └── main.py # Aplicație Streamlit (UI + Logică Hibridă) │ ├── models/ │ └── optimized_model.h5 # Model FINAL optimizat (Hibrid compatibil) │ ├── config/ │ └── tokenizer.pkl # Tokenizer salvat pentru consistență │ ├── results/ │ └── final_metrics.json # Rezultatele evaluării finale │ └── requirements.txt # tensorflow, streamlit, pandas, numpy
-
-
----
 
 ## 9. Instrucțiuni de Instalare și Rulare
 
